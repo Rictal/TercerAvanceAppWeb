@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="estilo_ejercicio.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Crear cuenta</h1>
+            <label class="menasje1" id="mensaje1">Ingrese los datos solicitados para crear una cuenta
+                nueva</label>
+        </header>
+        <section>
+            <form action="datos" method="GET" id="formulario_registro" class="registro">
+                <div class="nombre">
+                    <input type="text" placeholder="Nombre" required id="registro_nombre">
+                    <input type="text" placeholder="Apellidos" required id="registro_apellidos">
+                </div>
+                <input type="email" placeholder="Correo Electronico" required name="registro_correo"
+                    id="registro_correo" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$">
+                <p></p>
+                <label class="sexo">Hombre </label> <input type="radio" name="genero" id="checkboxH">
+                <label class="sexo"> Mujer</label><input type="radio" name="genero" id="checkboxM">
+                <p></p>
+                <label for="">Telefono:</label><input type="tel" required>
+                <p></p>
+                <label for="">Fecha de nacimiento: </label><input required type="date" name="" id="">
+                <p></p>
+                <label for="">Avatar:</label><input required type="file">
+                <p></p>
+                <div class="label_ubicacion">
+                    <label for="">Estado: </label><select required name="Estado" id="estado">
+                        <option value="Sonora">Sonora</option>
+                        <option value="Estado Sinaloa">Sinaloa</option>
+                    </select>
+
+                </div>
+                <div>
+                    <label for="">Municipio: </label>
+                    <select name="Ciudad" id="registro_ciudad">
+                        <optgroup label="Sonora">
+                            <option value="Ciudad Obregon">Ciudad Obregon</option>
+                            <option value="Hermosillo">Hermosillo</option>
+                            <option value="Navojoa">Navojoa</option>
+                        </optgroup>
+                        <optgroup label="Sinaloa">
+                            <option value="Los Mochis">Los Mochis</option>
+                            <option value="Culiacán"> Culiacán</option>
+                            <option value="Guasave">Guasave</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <p></p>
+                <input type="text" placeholder="Usuario" name="registro_usuario" id="registro_usuario">
+                <input type="pass" placeholder="Contraseña" name="registro_contra" id="registro_contra"
+                    pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[$@$!%?&])[A-Za-z\d$@$!%?&]{8,15}"">
+                <footer>
+                    <input type=" submit" value="Registrarse" id="registrarse">
+                <input type="button" value="Cancelar" id="cancelar">
+                </footer>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
