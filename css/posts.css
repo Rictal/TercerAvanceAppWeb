@@ -104,6 +104,7 @@ body {
   margin-bottom: 2vh;
   padding-top: 1vh;
   padding-left: 1vh;
+  padding-bottom: 1vh;
 }
 
 .usuario {
@@ -147,11 +148,12 @@ body {
 }
 
 .comentarios{
-
   margin-left: 3vh;
+  
 }
 
 .comentarios div {
+  padding-top: 1vh;
   background-color:antiquewhite;
   border: solid 1px black;  
   margin-bottom: 1vh;
@@ -197,3 +199,9 @@ a{
     margin-left: 3vw;
   }
 }
+@media screen and (max-width: 1505px) {
+  .comentar {
+    margin-top: 3vh;
+  }
+}
+ 

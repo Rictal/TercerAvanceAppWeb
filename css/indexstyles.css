@@ -63,9 +63,10 @@ margin-bottom: 17px;
  font-size: 22px;
  cursor: pointer;
  border-radius: 12px;
- display: block;
- margin: 0 auto;
+ display: inline-block;
  margin-bottom: 13px;
+position: relative ;
+left: 41vh;
 }
 
 .botonCrear{
@@ -77,8 +78,7 @@ margin-bottom: 17px;
  font-size: 17px;
  cursor: pointer;
  border-radius: 12px;
- display: block;
- margin: 0 auto;
+ display: inline-block;
 }
 
 .botonIngresar:hover{
