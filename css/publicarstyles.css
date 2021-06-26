@@ -52,7 +52,7 @@ body {
 
 #posts {
  width: 60vw;
- height: 70vh;
+ height: 90vh;
  border-radius: 4px;
  margin: auto;
  background-color: azure;
@@ -89,7 +89,7 @@ body {
 
 #lblAnclado{
  display: inline-block;
- margin-right: 22vw;
+ margin-right:18vw;
  font-size: 1.3rem;
 }
 
