@@ -172,6 +172,10 @@ body {
   resize: none;
 }
 
+a{
+  text-decoration: none;
+}
+
 @media screen and (max-width: 800px) {
   #datos input[type="button"] {
     width: var(--tamanio_publicarRe);

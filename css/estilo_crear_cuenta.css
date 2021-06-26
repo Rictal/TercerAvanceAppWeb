@@ -92,3 +92,15 @@ select{
 .label_ubicacion{
     display: block;
 }
+
+#registrarse:hover{
+    background-color: #0f7947;
+}
+
+#cancelar:hover{
+    background-color: rgb(145, 26, 26);
+}
+
+a{
+    text-decoration: none;
+}
